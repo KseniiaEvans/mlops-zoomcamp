@@ -1,2 +1,2 @@
 # mlops-zoomcamp
-MLOps Zoomcamp course by DataTalks.Club
+[MLOps Zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp/tree/main) course by [DataTalks.Club](https://datatalks.club/)
