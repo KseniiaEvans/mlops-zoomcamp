@@ -163,3 +163,8 @@ cython_debug/
 .DS_Store
 
 mlruns/
+
+mlartifacts/
+
+*.bin
+*.sqlite

@@ -28,11 +28,6 @@ def run_train(data_path: str):
     rf.fit(X_train, y_train)
     y_pred = rf.predict(X_val)
 
-    with open('models/rand_forest.bin', 'wb') as f_out:
-        pickle.dump(rf, f_out)
-    
-    mlflow.log_artifact(local_path="models/rand_forest.bin", artifact_path="models_pickle")
-
     rmse = mean_squared_error(y_val, y_pred, squared=False)
 
 
