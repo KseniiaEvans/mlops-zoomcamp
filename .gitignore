@@ -168,3 +168,5 @@ mlartifacts/
 
 *.bin
 *.sqlite
+
+artifacts/
