@@ -128,6 +128,14 @@ ENV/
 env.bak/
 venv.bak/
 
+.venv_3_8
+venv_3_8/
+venv_3_8.bak/
+
+.venv_3_11
+venv_3_11/
+venv_3_11.bak/
+
 # Spyder project settings
 .spyderproject
 .spyproject
